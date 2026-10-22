@@ -44,5 +44,4 @@ and measured search benchmarks on a documented map corpus.
 
 ## Development
 
-Initial implementation prepared with AI assistance. See source and reproducible
-tests for the current scope. MIT licensed.
+See source and reproducible tests for the current scope. MIT licensed.
