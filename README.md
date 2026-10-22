@@ -1,5 +1,10 @@
 # Robot Pathfinding Lab
 
+[![CI](https://github.com/arslan1t/robot-pathfinding-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/arslan1t/robot-pathfinding-lab/actions/workflows/ci.yml)
+![python](https://img.shields.io/badge/python-3.10%2B-3776ab)
+![dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
+![license](https://img.shields.io/badge/license-MIT-blue)
+
 A small, reproducible lab for comparing A* and Dijkstra on occupancy grids.
 Python 3.10+, standard library only. Simulation only; not a robot controller.
 
