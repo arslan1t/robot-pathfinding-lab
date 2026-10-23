@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-23T20:02:25.298662+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "system": "Darwin",
+  "system_release": "25.5.0",
+  "machine": "arm64",
+  "timer": "time.perf_counter_ns",
+  "width": 80,
+  "height": 50,
+  "seeds": [
+    0,
+    7,
+    42,
+    2026
+  ],
+  "cases": 14,
+  "algorithms": [
+    "astar",
+    "dijkstra"
+  ],
+  "warmup_runs_per_algorithm_case": 1,
+  "measured_runs_per_algorithm_case": 9,
+  "oracle": "Independent breadth-first search for unit-cost grids",
+  "validation": "Optimal cost, endpoints, traversability, adjacency, deterministic output",
+  "timing_scope": "search only; excludes corpus generation, BFS, validation and file IO",
+  "execution_order": "corpus order, then astar before dijkstra; no process isolation",
+  "limitations": "Synthetic maps and single-machine microbenchmarks; timing varies with environment",
+  "maps": {
+    "open-room": "ba70ad7b1550b7500f7aa0e8157d7230051b0f5c9c3d86c0403aa81b645a1d3d",
+    "random-sparse-seed-0": "0245aa01ca2918663e83ff8d86e9f3c6980d28fdaf5479a37f59882fee846b0e",
+    "random-sparse-seed-7": "e01e4bcfe4929fa122b3453c100464e11399d400e78b270cd98b2ecb1d6d8188",
+    "random-sparse-seed-42": "543aee58f880e6254699fe86444546fd9c43e9397105895eea81fb54c06c8a8b",
+    "random-sparse-seed-2026": "c22eb8333b9ae0e06999fa2e2f6509d3014672f0e1461bdab656f7212b767df1",
+    "random-dense-seed-0": "4488698e3202143673b9728de264fe25cb61ad8640440af8eeab7af3bf718b6e",
+    "random-dense-seed-7": "41e00963fdc637c2d975d2a15a7f8bb2711fb064cad77ba613d3c1f2e8abbb55",
+    "random-dense-seed-42": "baa376a646a6afd9787b267be0329ffceeb9a5375fe742554c883b324549fd20",
+    "random-dense-seed-2026": "d3f2d97f7fe6edc4d683efcbf4a925f3a90398617c0ea13198ba740dec972479",
+    "warehouse-seed-0": "3e752e98d24872fa1a77e42a53070bf331bbdeb6554dec64225b6209575cfe12",
+    "warehouse-seed-7": "ec541292c7501cd3bb2b5246dfd26488bd1ab502d706bcdbe286f90a95a21b37",
+    "warehouse-seed-42": "e642fe6c8862ce082da97130f5db3709823a5edc998f626acb42e175677b326a",
+    "warehouse-seed-2026": "ae46a9df8e6e1c55a20aca6f5da97158724ec8c4611f4253be5cbf09f512766e",
+    "unreachable": "bdbf81633650e3b6ef16c30fd0d0fed800ed3dc77cbfb0392947bfe3511ef1cd"
+  }
+}
